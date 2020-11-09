@@ -1,7 +1,7 @@
 #!/bin/bash
 
 START=$(date +"%s")
-PROJECT_PATH="$(PWD)"
+PROJECT_PATH="$(/bin/PWD)"
 
 # 
 # PARAMS TO CHANGE
