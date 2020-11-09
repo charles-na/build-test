@@ -1,6 +1,8 @@
-#!/bin/bash -l
+#!/bin/bash
 
-clear
+# clear
 
-mkdir Logs
-mkdir "Logs"
+# mkdir Logs
+# mkdir "Logs"
+
+echo "term"
