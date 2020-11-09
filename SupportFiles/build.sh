@@ -24,15 +24,17 @@ GDRIVE_BUILD_PATH=$HOME/'Google 드라이브/Jenkins Builds/dobrain-verified'
 USYM_UPLOAD_AUTH_TOKEN='89f9cba6-fec7-478a-99c0-7880c093d95e'
 UNITY='/Applications/Unity/Hub/Editor/2019.4.13f1/Unity.app/Contents/MacOS/Unity'
 
-[ -d $LOGS_PATH ] || /bin/mkdir $LOGS_PATH
-[ -d $BUILDS_PATH ] || /bin/mkdir $BUILDS_PATH
+# [ -d $LOGS_PATH ] || mkdir $LOGS_PATH
+# [ -d $BUILDS_PATH ] || mkdir $BUILDS_PATH
 
-[ -d $IOS_PATH ] || /bin/mkdir $IOS_PATH
-[ -d $ANDROID_PATH ] || /bin/mkdir $ANDROID_PATH
+# [ -d $IOS_PATH ] || mkdir $IOS_PATH
+# [ -d $ANDROID_PATH ] || mkdir $ANDROID_PATH
 
 # [ -d $IOS_BUILD_PATH ] || mkdir $IOS_BUILD_PATH
 # [ -d $IOS_DEVELOPMENT ] || mkdir $IOS_DEVELOPMENT
 # [ -d "$IOS_RELEASE" ] || mkdir "$IOS_RELEASE"
+
+/bin/mkdir $LOGS_PATH
 
 # function UpdateRepo {
 # echo ''
