@@ -1,3 +1,6 @@
-#!/bin/bash
+#!/bin/bash -l
+
+clear
 
 mkdir Logs
+mkdir "Logs"
