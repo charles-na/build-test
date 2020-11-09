@@ -5,6 +5,6 @@
 # mkdir Logs
 # mkdir "Logs"
 
-/bin/sh mkdir ./Logs
+/bin/mkdir ./Logs
 
 echo "End build"
